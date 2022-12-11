@@ -24,6 +24,7 @@ export default function Form(props){
                 className="input-form"
                 value={name}
                 onChange={handleChange}
+                
             />
             <button className="input-button" type="submit">Add</button>
         </form>
